@@ -20,6 +20,7 @@ namespace mtosh.web.Data
                 Username = "JaneDoe",
                 EmailAddress = "jane.doe@example.com",
                 Password = "LetM@In!",
+                Dogname = "Spud",
                 Currency = 321.45M
             };
 

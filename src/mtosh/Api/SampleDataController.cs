@@ -20,7 +20,7 @@ namespace mtosh.web.Api
         public TestData Get()
         {
             // pick up the last value, so we see something happening
-            return _context.TestData.DefaultIfEmpty(null as TestData).LastOrDefault();
+            return _context.TestData.DefaultIfEmpty(null as TestData).FirstOrDefault();
         }
 
         // POST api/values
