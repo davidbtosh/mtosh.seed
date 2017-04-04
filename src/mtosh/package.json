@@ -8,12 +8,18 @@
     "@angular/platform-browser": "~2.4.0",
     "@angular/platform-browser-dynamic": "~2.4.0",
     "@angular/router": "~3.4.0",
-
     "angular-in-memory-web-api": "~0.2.4",
     "systemjs": "0.19.40",
     "core-js": "^2.4.1",
     "rxjs": "5.0.1",
-    "zone.js": "^0.7.6"
+    "zone.js": "^0.7.6",
+    "OpenIddict": "1.0.0-*",
+    "OpenIddict.EntityFrameworkCore": "1.0.0-*",
+    "OpenIddict.Mvc": "1.0.0-*",
+    "Microsoft.AspNetCore.Identity": "1.1.0",
+    "AspNet.Security.OAuth.Introspection": "1.0.0-beta1-*",
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.1.0",
+    "AspNet.Security.OAuth.Validation": "1.0.0-beta1-*"
   },
   "devDependencies": {
     "typescript": "~2.0.10",

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace mtosh.web.ViewModels
 {
@@ -31,6 +32,11 @@ namespace mtosh.web.ViewModels
 
         [Display(Description = "Dog name", Name = "Dogname", Prompt = "Dog name")]
         public string Dogname { get; set; }
+
+
+        public DateTime ModifiedTimestamp { get; set; }
+
+        public string ModifiedBy { get; set; }
 
     }
 }
